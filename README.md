@@ -5,13 +5,13 @@ This device driver to control 3 LEDs.
 
 
 # Execution environment
-| OS | Ubuntu18.04 LTS|
-|----|----|
-|ROS Distribution|ROS Melodic Morenia|
+These packages have been developed and tested on ROS Melodic. Please see below for details.
 
+- ROS Melodic
+  - OS: ubuntu 18.04 LTS
+  - ROS Distribution: Melodic Morenia
 # Install
 ```
-
 ```
 # Building
 
@@ -19,16 +19,13 @@ This device driver to control 3 LEDs.
 
 # Uninstall
 ```
-sudo rmmod myled
 ```
 
 # Note
 Please connect resistors to the LED's to prevent them from bursting.
 # Author
-
-* Kippei Onishi and Ryuichi Ueda  
-* Chiba Institute of Technology  
-* s18C1019UM@s.chibakoudai.jp  
+- Kippei Onishi(s18C1019UM@s.chibakoudai.jp) and Ryuichi Ueda  
+- Chiba Institute of Technology  
 
 # License
 
