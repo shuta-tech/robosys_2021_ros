@@ -11,9 +11,17 @@ These packages have been developed and tested on ROS Melodic. Please see below f
   - OS: ubuntu 18.04 LTS
   - ROS Distribution: Melodic Morenia
 # Install
+- ROS
+  - http://wiki.ros.org/melodic/Installation
+- Create a [catkin](http://wiki.ros.org/catkin#Installing_catkin) workspace
+  - http://wiki.ros.org/ja/catkin/Tutorials/create_a_workspace
+- Clone this repository and enter it:
 ```
+git clone git@github.com:kippei-onishi/robosys_2021_ros.git
+cd ~/catkin_ws
+catkin build
 ```
-# Building
+# Usage Instructions
 
 # Commands
 
