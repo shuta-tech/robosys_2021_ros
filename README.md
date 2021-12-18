@@ -5,11 +5,11 @@ This device driver to control 3 LEDs.
 
 
 # Execution environment
-These packages have been developed and tested on ROS Melodic. Please see below for details.
+This package have been developed and tested on ROS Noetic. Please see below for details.
 
 - ROS Melodic
-  - OS: ubuntu 18.04 LTS
-  - ROS Distribution: Melodic Morenia
+  - OS: ubuntu 20.04 server
+  - ROS Distribution: Noetic
 # Install
 - ROS
   - http://wiki.ros.org/melodic/Installation
@@ -37,4 +37,4 @@ Please connect resistors to the LED's to prevent them from bursting.
 
 # License
 
-"myled" is under [BSD 3-Clause "New" or "Revised" License](https://en.wikipedia.org/wiki/BSD_licenses).
+"robosys_2021_ros" is under [BSD 3-Clause "New" or "Revised" License](https://en.wikipedia.org/wiki/BSD_licenses).
