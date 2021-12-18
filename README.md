@@ -1,8 +1,6 @@
-# Submission2 on robosys2021 
+# robosys_2021_ros
 
-This device driver to control 3 LEDs. 
-
-
+This package 
 
 # Execution environment
 This package have been developed and tested on ROS Noetic. Please see below for details.
@@ -22,18 +20,28 @@ cd ~/catkin_ws
 catkin build
 ```
 # Usage Instructions
-
+Open a terminal and enter this command to start ROS:
+```
+roscore
+```
+Starting publisher, open another terminal and enter this command:
+```
+rosrun robosys_2021_ros pub 
+```
+Starting subscriber, open another terminal and enter this command:
+```
+rosrun robosys_2021_ros sub
+```
 # Commands
 
-# Uninstall
-```
-```
 
 # Note
+
 Please connect resistors to the LED's to prevent them from bursting.
+
 # Author
-- Kippei Onishi(s18C1019UM@s.chibakoudai.jp) and Ryuichi Ueda  
-- Chiba Institute of Technology  
+- Chiba Institute of Technology 
+  - Kippei Onishi(s18C1019UM@s.chibakoudai.jp) and Ryuichi Ueda  
 
 # License
 
