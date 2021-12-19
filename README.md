@@ -6,8 +6,8 @@ This package
 This package have been developed and tested on ROS Noetic. Please see below for details.
 
 - ROS Melodic
-  - OS: ubuntu 20.04 server
-  - ROS Distribution: Noetic
+  - OS: ubuntu 18.04 LTS
+  - ROS Distribution: Melodic Morenia
 # Install
 - ROS
   - http://wiki.ros.org/melodic/Installation
@@ -26,18 +26,18 @@ roscore
 ```
 Starting publisher, open another terminal and enter this command:
 ```
-rosrun robosys_2021_ros pub 
+rosrun robosys_2021_ros stu
 ```
 Starting subscriber, open another terminal and enter this command:
 ```
-rosrun robosys_2021_ros sub
+rosrun robosys_2021_ros pro
 ```
 # Commands
 
 
 # Note
 
-Please connect resistors to the LED's to prevent them from bursting.
+You can't actually earn credits by paying for them.
 
 # Author
 - Chiba Institute of Technology 
