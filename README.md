@@ -9,9 +9,10 @@ There are two nodes in this package, ```student``` and ```professor```.
 - ```student```: A node for entering an amount.
 - ```professor```: A node for giving credits to the received amount(USD). The number of credits to be given is as follows.
   - 0〜999: 0(Displayed as ```I will not give you any credits.```)
-  - 1000〜99999: 1~3
-  - 10000〜999999: 4~7
-  - 100000〜: Provide enough credits to graduate.(Displayed as ```I allow you to graduate this college```)
+  - 1000〜9999: 1~3
+  - 10000〜99999: 4~7
+  - 100000〜999999: 8~10
+  - 1000000〜: Provide enough credits to graduate.(Displayed as ```I allow you to graduate this college```)
   
 The number of credits is determined by a random number.
 
