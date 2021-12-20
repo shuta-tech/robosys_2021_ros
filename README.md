@@ -1,6 +1,19 @@
 # robosys_2021_ros
 
-This package 
+In this package, the professor gives credit to the student according to the amount paid by the student.
+
+### Nodes
+
+There are two nodes in this package, ```student``` and ```professor```.
+
+- ```student```: A node for entering an amount.
+- ```professor```: A node for giving credits to the received amount(USD). The number of credits to be given is as follows.
+  - 0〜999: 0(Displayed as ```I will not give you any credits.```)
+  - 1000〜99999: 1~3
+  - 10000〜999999: 4~7
+  - 100000〜: Provide enough credits to graduate.(Displayed as ```I allow you to graduate this college```)
+  
+The number of credits you receive is randomly determined by a random number.
 
 # Execution environment
 This package have been developed and tested on ROS Noetic. Please see below for details.
@@ -32,12 +45,10 @@ Starting subscriber, open another terminal and enter this command:
 ```
 rosrun robosys_2021_ros pro
 ```
-# Commands
-
 
 # Note
 
-You can't actually earn credits by paying for them.
+You can't obtain credits if you pay much money to the professors.
 
 # Author
 - Chiba Institute of Technology 
