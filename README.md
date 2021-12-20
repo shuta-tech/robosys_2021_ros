@@ -45,7 +45,20 @@ Starting subscriber, open another terminal and enter this command(```terminal2``
 ```
 rosrun robosys_2021_ros pro
 ```
-In ```terminal1```), 
+In ```terminal1```, Enter the amount as shown below. 
+
+![ter1](https://user-images.githubusercontent.com/94519129/146707955-5044a251-f351-4696-ad5f-46818cee6d6c.png)
+
+In ```terminal2```, it will be displayed as follows.
+
+![ter2](https://user-images.githubusercontent.com/94519129/146708339-7f69607e-bc48-459e-8005-4f93b3c5566a.png)
+
+When you enter the amount, it will be displayed as follows. The left side is ```student``` and the right side is ```professor```.
+
+![Screenshot from 2021-12-20 12-44-22](https://user-images.githubusercontent.com/94519129/146709021-389d277f-0311-4732-963c-c411cf5267e0.png)
+
+- To stop node ```student```, enter a number greater than or equal to 999999999999.
+- To stop node ```professor```, enter ```ctrl + c```.
 
 # Note
 
