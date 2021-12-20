@@ -1,6 +1,6 @@
 # robosys_2021_ros
 
-In this package, the professor gives credit to the student according to the amount paid by the student. The number of credits that a student receives is determined by the amount paid by the student and a random number.
+In this package, the professor gives credits to the student according to the amount paid by the student. The number of credits that a student receives is determined by the amount paid by the student and a random number.
 
 ### Nodes
 
@@ -13,7 +13,7 @@ There are two nodes in this package, ```student``` and ```professor```.
   - 10000〜999999: 4~7
   - 100000〜: Provide enough credits to graduate.(Displayed as ```I allow you to graduate this college```)
   
-The number of credits you receive is randomly determined by a random number.
+The number of credits is determined by a random number.
 
 # Execution environment
 This package have been developed and tested on ROS Melodic. Please see below for details.
@@ -62,7 +62,7 @@ When you enter the amount, it will be displayed as follows. The left side is ```
 
 # Note
 
-You can't obtain credits if you pay much money to the professors.
+You can not obtain credits if you pay money to your professors.
 
 # Author
 - Chiba Institute of Technology 
