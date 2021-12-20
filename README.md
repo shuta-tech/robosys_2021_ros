@@ -1,6 +1,6 @@
 # robosys_2021_ros
 
-In this package, the professor gives credit to the student according to the amount paid by the student.
+In this package, the professor gives credit to the student according to the amount paid by the student. The number of credits that a student receives is determined by the amount paid by the student and a random number.
 
 ### Nodes
 
@@ -16,7 +16,7 @@ There are two nodes in this package, ```student``` and ```professor```.
 The number of credits you receive is randomly determined by a random number.
 
 # Execution environment
-This package have been developed and tested on ROS Noetic. Please see below for details.
+This package have been developed and tested on ROS Melodic. Please see below for details.
 
 - ROS Melodic
   - OS: ubuntu 18.04 LTS
@@ -37,14 +37,15 @@ Open a terminal and enter this command to start ROS:
 ```
 roscore
 ```
-Starting publisher, open another terminal and enter this command:
+Starting publisher, open another terminal and enter this command(```terminal1```):
 ```
 rosrun robosys_2021_ros stu
 ```
-Starting subscriber, open another terminal and enter this command:
+Starting subscriber, open another terminal and enter this command(```terminal2```):
 ```
 rosrun robosys_2021_ros pro
 ```
+In ```terminal1```), 
 
 # Note
 
